@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caleb.security.mapper.AuditMapper">
+
+    <!--/**
+     * 根据用户id获取用户拥有角色
+     */-->
+    <select id="checkUserValid" resultType="boolean">
+        SELECT COUNT(*) > 0
+        FROM tbl_audit
+        WHERE uuid = #{uuid}
+        and email = #{email}
+        and status = #{status}
+    </select>
+
+
+    <select id="checkInfoByEmail" resultType="com.caleb.security.entity.dto.DbAudit" parameterType="java.lang.String">
+        select email,uuid,status,captcha
+        from tbl_audit
+        where
+        email = #{email}
+    </select>
+
+
+    <!-- 新增用户 -->
+    <insert id="insertUser" parameterType="com.caleb.security.entity.dto.DbAudit">
+        INSERT INTO user (name, age, email)
+        VALUES (#{name}, #{age}, #{email})
+    </insert>
+
+    <!-- 修改用户 -->
+    <update id="updateUser" parameterType="com.caleb.security.entity.dto.DbAudit">
+        UPDATE user
+        SET name = #{name}, age = #{age}, email = #{email}
+        WHERE id = #{id}
+    </update>
+
+    <!-- 删除用户 -->
+    <delete id="deleteUserById" parameterType="Long">
+        DELETE FROM user WHERE id = #{id}
+    </delete>
+
+    <!-- 根据ID查询用户 -->
+    <select id="selectUserById" parameterType="Long" resultType="com.caleb.security.entity.dto.DbAudit">
+        SELECT id, name, age, email
+        FROM user
+        WHERE id = #{id}
+    </select>
+
+    <!-- 查询所有用户 -->
+    <select id="selectAllUsers" resultType="com.caleb.security.entity.dto.DbAudit">
+        SELECT id, name, age, email
+        FROM user
+    </select>
+</mapper>

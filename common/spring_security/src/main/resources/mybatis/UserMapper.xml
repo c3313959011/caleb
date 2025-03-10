@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.caleb.security.mapper.UserMapper">
+
+    <!--结果集封装-->
+    <resultMap type="com.caleb.security.entity.dto.DbUser" id="DbUserResult">
+        <result property="id"    column="id"    />
+        <result property="username"    column="username"    />
+        <result property="password"    column="password"    />
+    </resultMap>
+
+    <resultMap id="DdUserRoleResult" type="com.caleb.security.entity.dto.DbUser" extends="DbUserResult">
+        <collection property="roleId" ofType="com.caleb.security.entity.DdRole">
+            <id column="rid" property="id" />
+            <result column="rname" property="name" />
+            <result column="rnameZh" property="nameZh" />
+        </collection>
+    </resultMap>
+
+    <select id="selectByUsername" parameterType="java.lang.String" resultType="com.caleb.security.entity.dto.DbUser">
+        select * from tbl_user where username=#{username}
+    </select>
+
+    <select id="selectByEmail" parameterType="java.lang.String" resultType="com.caleb.security.entity.dto.DbUser">
+        select * from tbl_user where email=#{email}
+    </select>
+
+    <select id="selectByEmailAndUuid" parameterType="java.lang.String" resultType="com.caleb.security.entity.dto.DbUser">
+        select * from tbl_user where email=#{email} or uuid=#{uuid}
+    </select>
+
+
+    <select id="existsByName" resultType="boolean">
+        SELECT COUNT(*) > 0
+        FROM tbl_user
+        WHERE username = #{username}
+    </select>
+
+
+    <!-- 新增用户 -->
+    <insert id="insertUser" parameterType="com.caleb.security.entity.dto.DbUser">
+        INSERT INTO tbl_user (username, password, email, uuid, role_id)
+        VALUES (#{username}, #{password}, #{email}, #{uuid}, #{roleId})
+    </insert>
+</mapper>

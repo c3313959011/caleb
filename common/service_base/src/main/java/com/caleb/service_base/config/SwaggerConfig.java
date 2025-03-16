@@ -1,6 +1,6 @@
 package com.caleb.service_base.config;
 
-//import com.google.common.base.Predicates;
+import org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -25,22 +25,20 @@ public class SwaggerConfig {
                 .groupName("webApi")//分组名
                 .apiInfo(webApiInfo())//在线文档的信息，传入ApiInfo对象，就是下面内个方法返回的对象
                 .select()
-//                .paths(Predicates.not(PathSelectors.regex("/admin/.*")))//路径中包含admin时不显示信息
-//                .paths(Predicates.not(PathSelectors.regex("/error/.*")))
                 .build()
                 //因为我们开启了securityJWT验证，所以我们也需要给Swagger配置头信息
                 .securityContexts(securityContexts())
                 .securitySchemes(securitySchemes())
-                ;
+                .ignoredParameterTypes(BasicErrorController.class);
     }
 
     private ApiInfo webApiInfo() {
         return new ApiInfoBuilder()
-                .title("gulischool 接口 API 文档")
-                .description("展示先做基础功能，后面再添加业务")
-                .termsOfServiceUrl("https://www.dd.com/aa/")
+                .title("caleb接口文档")
+                .description("苹果老家")
+                .termsOfServiceUrl("待定")
                 .version("1.0")
-                .contact(new Contact("Helen","http://dd.com","915501928@qq.com"))
+                .contact(new Contact("name","url","email"))
                 .build();
     }
 

@@ -10,14 +10,6 @@
         <result property="password"    column="password"    />
     </resultMap>
 
-    <resultMap id="DdUserRoleResult" type="com.caleb.security.entity.dto.DbUser" extends="DbUserResult">
-        <collection property="roleId" ofType="com.caleb.security.entity.DdRole">
-            <id column="rid" property="id" />
-            <result column="rname" property="name" />
-            <result column="rnameZh" property="nameZh" />
-        </collection>
-    </resultMap>
-
     <select id="selectByUsername" parameterType="java.lang.String" resultType="com.caleb.security.entity.dto.DbUser">
         select * from tbl_user where username=#{username}
     </select>

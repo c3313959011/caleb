@@ -15,4 +15,8 @@ public interface AuditMapper extends BaseMapper<DbAudit>  {
     //查询待审核信息中，邮箱和UUID是否存在
     DbAudit checkInfoByEmail(@Param("email") String email);
 
+    int updateAuditStatus(@Param("email") String email,@Param("status") int status);
+
+    int insertAuditInfo(DbAudit audit);
+
 }

@@ -22,18 +22,28 @@
     </select>
 
 
+    <!-- 修改审核状态 -->
+    <update id="updateAuditStatus">
+        UPDATE tbl_audit
+        SET status = #{status}
+        WHERE email = #{email}
+    </update>
+
+
     <!-- 新增用户 -->
-    <insert id="insertUser" parameterType="com.caleb.security.entity.dto.DbAudit">
-        INSERT INTO user (name, age, email)
-        VALUES (#{name}, #{age}, #{email})
+    <insert id="insertAuditInfo" parameterType="com.caleb.security.entity.dto.DbAudit">
+        INSERT INTO tbl_audit (email, uuid, status)
+        VALUES (#{email}, #{uuid}, #{status})
     </insert>
+
 
     <!-- 修改用户 -->
     <update id="updateUser" parameterType="com.caleb.security.entity.dto.DbAudit">
         UPDATE user
-        SET name = #{name}, age = #{age}, email = #{email}
+        SET status = #{status}, age = #{age}, email = #{email}
         WHERE id = #{id}
     </update>
+
 
     <!-- 删除用户 -->
     <delete id="deleteUserById" parameterType="Long">

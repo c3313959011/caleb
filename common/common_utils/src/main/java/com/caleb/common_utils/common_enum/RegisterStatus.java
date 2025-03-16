@@ -10,7 +10,8 @@ public enum RegisterStatus {
 
     WAIT_AUDIT(0,"待审核"),
     AUDIT_SUCCESS(1,"审核成功"),
-    AUDIT_FAILED(2,"审核失败")
+    AUDIT_FAILED(2,"审核失败"),
+    WAIT_EXAM(3,"考试中")
     ;
 
     private final int code;

@@ -16,6 +16,7 @@ public enum ErrorCode {
     SUCCESS(200,"成功"),
     INVALID_ARGUMENT(1000,"非法参数"),
     NO_PERMISSION(1001,"用户无权限"),
+    INVALID_ERROR(1002,"内部错误"),
 
     //1011-1020：用户登录
     USER_NOT_LOGIN(1011,"用户未登录"),
@@ -30,7 +31,9 @@ public enum ErrorCode {
     REGISTER_INFO_EXCEPTION(1024,"UUID与邮箱不匹配，请检查注册信息或联系管理员"),
     AUDIT_FAILED(1024,"账号审核失败，请重新答题并更新自证"),
     REGISTER_CODE_ERROR(1025,"注册码异常"),
-    NAME_DUPLICATE(1026,"用户名重复")
+    NAME_DUPLICATE(1026,"用户名重复"),
+    NOT_NEED_EXAM(1027,"用户已完成答题，请等待审核"),
+    AUDIT_SUCCESS(1028,"已审核通过，请直接注册"),
     ;
 
     private final int code;

@@ -1,7 +1,5 @@
 package com.caleb.security.config;
 
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.caleb.security.entity.DdRole;
 import com.caleb.security.entity.dto.DbUser;
 import com.caleb.security.exception.RestAccessDeniedHandler;
 import com.caleb.security.exception.RestAuthorizationEntryPoint;
@@ -36,8 +34,6 @@ import static com.caleb.common_utils.constantParams.ADMIN_ROLE;
 @Configuration
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
-//    @Autowired
-//    private DdUserService ddUserService;
 
     @Autowired
     UserMapper userMapper;

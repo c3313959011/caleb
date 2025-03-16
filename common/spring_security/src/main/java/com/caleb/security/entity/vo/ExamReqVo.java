@@ -17,8 +17,8 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-@ApiModel(value = "验证注册请求体",description = "验证能否注册请求体")
-public class RegisterJudgeReqVo {
+@ApiModel(value = "答题请求体",description = "答题请求体")
+public class ExamReqVo {
 
     @ApiModelProperty(value = "邮箱地址",required = true)
     private String email;

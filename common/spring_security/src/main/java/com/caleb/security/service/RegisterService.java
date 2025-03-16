@@ -5,7 +5,7 @@ import com.caleb.security.entity.vo.*;
 
 public interface RegisterService {
 
-    Result judgeRegister(RegisterJudgeReqVo registerVo);
+    Result judgeRegister(ExamReqVo examVo);
 
     Result submitRegister(RegisterReqVo registerVo);
 }

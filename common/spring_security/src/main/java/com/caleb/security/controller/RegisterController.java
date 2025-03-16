@@ -28,10 +28,9 @@ public class RegisterController {
     @Autowired
     RegisterService registerService;
 
-    @ApiOperation(value = "判断能否注册")
-    @PostMapping("/judge")
-    public Result judgeRegister(@RequestBody RegisterJudgeReqVo registerVo, HttpServletRequest request){
-        //获取待审核名单
+    @ApiOperation(value = "用户答题")
+    @PostMapping("/exam")
+    public Result<ExamResponseVo> judgeRegister(@RequestBody ExamReqVo registerVo, HttpServletRequest request){
         return registerService.judgeRegister(registerVo);
     }
 
@@ -39,7 +38,6 @@ public class RegisterController {
     @ApiOperation(value = "提交注册")
     @PostMapping("/submit")
     public Result submitRegister(@RequestBody RegisterReqVo registerVo, HttpServletRequest request){
-        //获取待审核名单
         return registerService.submitRegister(registerVo);
     }
 

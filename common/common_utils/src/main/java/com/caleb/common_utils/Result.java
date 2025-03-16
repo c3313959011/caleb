@@ -24,6 +24,7 @@ public class Result<T> {
         Result result=new Result();
         result.setCode(ErrorCode.SUCCESS.getCode()); //调用我们提供状态码的接口，设置状态码
         result.setMessage(ErrorCode.SUCCESS.getMessage());          //设置提示信息
+        result.setData("");
         return result;                      //返回对象，外键不能new，只能通过静态方法获取对象
     }
     /**处理响应失败的静态方法**/

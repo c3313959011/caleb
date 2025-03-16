@@ -4,7 +4,84 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea5ff346-1e39-437b-9cc3-5af8c8e8c286" name="Changes" comment="" />
+    <list default="true" id="ea5ff346-1e39-437b-9cc3-5af8c8e8c286" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/common_utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/common_utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/ResultCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/ResultCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/common_enum/ErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/common_utils/src/main/java/com/caleb/common_utils/common_enum/ErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/service_base.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/service_base.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/CaptchaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/CaptchaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/MpConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/MpConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/RedisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/Swagger2Config.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/CustomExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/CustomExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/MyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/MyExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/MyMpMetaObjectHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/java/com/caleb/service_base/handler/MyMpMetaObjectHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/service_base/src/main/resources/application-dev.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/common/service_base/src/main/resources/application-dev.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/spring_security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/spring_security.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/controller/UserManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/controller/UserManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdRoleMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdRoleMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdUserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/DdUserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/vo/LoginReqVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/entity/vo/LoginReqVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/exception/RestAccessDeniedHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/exception/RestAccessDeniedHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/exception/RestAuthorizationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/exception/RestAuthorizationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/CustomFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/CustomFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/CustomUrlDecisionManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/CustomUrlDecisionManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/JwtAuthencationTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/filter/JwtAuthencationTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/mapper/AuditMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/mapper/AuditMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/utils/JwtTokenUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/utils/JwtTokenUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/utils/SpringSecurityUserUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/java/com/caleb/security/utils/SpringSecurityUserUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/AuditMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/AuditMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/RoleUrlMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/RoleUrlMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/spring_security/src/main/resources/mybatis/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/service_animation.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/ServiceAnimationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/controller/AdminController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/controller/TagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/entity/Animation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/entity/Tag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/mapper/AnimationMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/mapper/TagMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/service/AnimationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/service/TagService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/service/impl/AnimationServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/java/com/caleb/service_animation/service/impl/TagServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/resources/mybatis/AnimationMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/main/resources/mybatis/TagMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_animation/src/test/java/yzpnb/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/service_topic.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/ServiceTopicApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/controller/DdTopicController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/entity/DdTopic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/entity/insert/DdTopicInsert.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/mapper/DdTopicMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/service/DdTopicService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/java/com/caleb/service_topic/service/impl/DdTopicServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/main/resources/mybatis/DdTopicMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service_topic/src/test/java/com/yzpnb/CodeGenerator.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,9 +99,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2u8H3GcLphg4cGt6J4uxvlUz6CC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -32,14 +109,35 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ServiceApplication.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/code/caleb/caleb",
+    "last_opened_file_path": "D:/code/github/caleb",
     "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="ServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.caleb.home.ServiceApplication" />
+      <module name="bbs" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.caleb.home.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

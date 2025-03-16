@@ -16,9 +16,6 @@ public class Result<T> {
     @ApiModelProperty(value="返回消息")
     public String message;
 
-    @ApiModelProperty(value="返回数据（暂时不用未删除）")
-    public Map<String,Object> data1=new HashMap<>();
-
     @ApiModelProperty(value="返回数据")
     public T data;
 
@@ -58,10 +55,6 @@ public class Result<T> {
         return this;
     }
 
-    public Result data(String key ,Object value){
-        this.data1.put(key,value);
-        return this;
-    }
 
     public Result<T> setData(T data){
         this.data = data;

@@ -1,11 +1,15 @@
 package com.caleb.common_utils.common_enum;
 
+import lombok.Getter;
+
 /**
  * @description: 错误码枚举
  * @author 咕噜
  * @date 2025/3/9 13:46
  * @version 1.0
  */
+
+@Getter
 public enum ErrorCode {
 
     //1000-1010：通用错误码
@@ -39,11 +43,4 @@ public enum ErrorCode {
     }
 
 
-    public String getMessage() {
-        return message;
-    }
-
-    public int getCode() {
-        return code;
-    }
 }

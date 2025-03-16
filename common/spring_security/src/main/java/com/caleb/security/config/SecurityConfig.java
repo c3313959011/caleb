@@ -146,6 +146,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         web.ignoring()
                 .antMatchers("/login/**",
                         "/register/**",
+                        "/open/**",
                         "/css/**",
                         "/js/**",
                         "/doc.html",

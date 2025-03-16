@@ -60,11 +60,11 @@ public class SwaggerConfig {
     private List<SecurityContext> securityContexts(){
         //设置需要授权认证的路径
         ArrayList<SecurityContext> result = new ArrayList<>();
-        result.add(getContextByPath("/service_animation/.*"));
-//        result.add(getContextByPath("/login/.*"));
-        result.add(getContextByPath("/login/info"));
-        result.add(getContextByPath("/logout"));
-        result.add(getContextByPath("/security/*"));
+        result.add(getContextByPath("/.*"));
+////        result.add(getContextByPath("/login/.*"));
+//        result.add(getContextByPath("/login/info"));
+//        result.add(getContextByPath("/logout"));
+//        result.add(getContextByPath("/security/*"));
         return result;
     }
 
